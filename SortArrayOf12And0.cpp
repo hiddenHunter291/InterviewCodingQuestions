@@ -11,9 +11,9 @@ int main() {
     while(mid <= high) {
         switch(numbers[mid]) {
             case 0 : 
-                swap(numbers[low], numbers[high]);
+                swap(numbers[mid], numbers[low]);
                 low++;
-                high++;
+                mid++;
                 break;
             case 1:
                 mid++;
