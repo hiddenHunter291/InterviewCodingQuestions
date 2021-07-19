@@ -20,7 +20,6 @@ int main() {
                 break;
             case 2:
                 swap(numbers[mid], numbers[high]);
-                mid++;
                 high--;
                 break;
         }
