@@ -28,7 +28,7 @@ bool isLeaf(Trie* root) {
     for(Trie* a : root->children) {
         if(a != NULL) return false;
     }
-    return root;
+    return true;
 }
 
 Trie* deleteString(Trie* root, int current_index, string s) {
